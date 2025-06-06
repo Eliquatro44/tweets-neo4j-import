@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "user": "alice",
+    "text": "Primeiro tweet!",
+    "type": "original"
+  },
+  {
+    "id": "2",
+    "user": "bob",
+    "text": "RT @alice: Primeiro tweet!",
+    "type": "retweet",
+    "retweeted_id": "1"
+  },
+  {
+    "id": "3",
+    "user": "carol",
+    "text": "@bob concordo!",
+    "type": "reply",
+    "replied_id": "2"
+  }
+]
